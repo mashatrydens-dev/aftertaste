@@ -1,0 +1,43 @@
+name: aftertaste daily post
+
+on:
+  schedule:
+    # 22:30 Warsaw time. Warsaw is UTC+1 in winter, UTC+2 in summer.
+    # We schedule TWO crons; only one fires per day depending on DST.
+    # GitHub Actions cron is always in UTC.
+    - cron: "30 21 * 1-3,10-12 *"   # 22:30 CET (Oct–Mar, UTC+1)
+    - cron: "30 20 * 4-9 *"          # 22:30 CEST (Apr–Sep, UTC+2)
+  workflow_dispatch:                  # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write   # needed to commit published.json back to repo
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run aftertaste bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TRACKS_CSV_URL: ${{ secrets.TRACKS_CSV_URL }}
+          ARTISTS_CSV_URL: ${{ secrets.ARTISTS_CSV_URL }}
+        run: python main.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "aftertaste-bot"
+          git config user.email "bot@aftertaste.local"
+          git add published.json recent_posts.json
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "post: $(date -u +%Y-%m-%d)"
+          git push
