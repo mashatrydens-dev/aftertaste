@@ -12,5 +12,12 @@
     "track": "Bad Kingdom",
     "youtube_url": "https://www.youtube.com/watch?v=3NPxqXMZq7o",
     "telegram_message_id": 5
+  },
+  {
+    "date": "2026-05-26T22:11:31.846475+00:00",
+    "artist": "Chet Faker",
+    "track": "Talk Is Cheap",
+    "youtube_url": "https://www.youtube.com/watch?v=aP_-P_BS6KY",
+    "telegram_message_id": 6
   }
 ]
