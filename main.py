@@ -213,7 +213,6 @@ def send_to_telegram(text: str) -> dict:
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
         "text": text,
-        "parse_mode": "Markdown",
         "disable_web_page_preview": False,  # YouTube preview ON
     }
     data = urllib.parse.urlencode(payload).encode("utf-8")
