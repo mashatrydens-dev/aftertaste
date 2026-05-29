@@ -26,5 +26,12 @@
     "track": "GS",
     "youtube_url": "https://www.youtube.com/watch?v=zWeYcNfYn3U",
     "telegram_message_id": 8
+  },
+  {
+    "date": "2026-05-29T08:58:35.334803+00:00",
+    "artist": "Low",
+    "track": "Lullaby",
+    "youtube_url": "https://www.youtube.com/watch?v=zEmtfA8FETc",
+    "telegram_message_id": 10
   }
 ]
