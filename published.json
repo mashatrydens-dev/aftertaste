@@ -54,5 +54,12 @@
     "track": "Missing",
     "youtube_url": "https://www.youtube.com/watch?v=9GICslPP2nc",
     "telegram_message_id": 13
+  },
+  {
+    "date": "2026-06-02T12:15:26.142095+00:00",
+    "artist": "The Weeknd",
+    "track": "Professional",
+    "youtube_url": "https://www.youtube.com/watch?v=OJPLBUz3YVs",
+    "telegram_message_id": 14
   }
 ]
