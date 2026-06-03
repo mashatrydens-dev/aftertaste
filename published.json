@@ -61,5 +61,12 @@
     "track": "Professional",
     "youtube_url": "https://www.youtube.com/watch?v=OJPLBUz3YVs",
     "telegram_message_id": 14
+  },
+  {
+    "date": "2026-06-03T13:02:41.466096+00:00",
+    "artist": "Primal Code",
+    "track": "Magellano",
+    "youtube_url": "https://www.youtube.com/watch?v=e6aPhea6D2o",
+    "telegram_message_id": 15
   }
 ]
