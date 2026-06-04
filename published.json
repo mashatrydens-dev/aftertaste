@@ -68,5 +68,12 @@
     "track": "Magellano",
     "youtube_url": "https://www.youtube.com/watch?v=e6aPhea6D2o",
     "telegram_message_id": 15
+  },
+  {
+    "date": "2026-06-04T10:43:13.444598+00:00",
+    "artist": "The National",
+    "track": "Fireproof",
+    "youtube_url": "https://www.youtube.com/watch?v=ApuabRjYvSI",
+    "telegram_message_id": 16
   }
 ]
