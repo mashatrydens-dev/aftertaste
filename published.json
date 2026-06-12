@@ -124,5 +124,12 @@
     "track": "Join Me in Death",
     "youtube_url": "https://www.youtube.com/watch?v=1V4AscLidWg",
     "telegram_message_id": 23
+  },
+  {
+    "date": "2026-06-12T11:12:19.527989+00:00",
+    "artist": "James Blake",
+    "track": "Assume Form",
+    "youtube_url": "https://www.youtube.com/watch?v=em4joakjkv4",
+    "telegram_message_id": 24
   }
 ]
