@@ -131,5 +131,12 @@
     "track": "Assume Form",
     "youtube_url": "https://www.youtube.com/watch?v=em4joakjkv4",
     "telegram_message_id": 24
+  },
+  {
+    "date": "2026-06-13T08:37:26.589701+00:00",
+    "artist": "Duran Duran",
+    "track": "Come Undone",
+    "youtube_url": "https://www.youtube.com/watch?v=Epj84QVw2rc",
+    "telegram_message_id": 25
   }
 ]
