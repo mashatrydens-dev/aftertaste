@@ -138,5 +138,12 @@
     "track": "Come Undone",
     "youtube_url": "https://www.youtube.com/watch?v=Epj84QVw2rc",
     "telegram_message_id": 25
+  },
+  {
+    "date": "2026-06-14T08:55:35.219959+00:00",
+    "artist": "Sade",
+    "track": "Smooth Operator",
+    "youtube_url": "https://www.youtube.com/watch?v=4TYv2PhG89A",
+    "telegram_message_id": 26
   }
 ]
