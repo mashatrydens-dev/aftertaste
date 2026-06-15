@@ -145,5 +145,12 @@
     "track": "Smooth Operator",
     "youtube_url": "https://www.youtube.com/watch?v=4TYv2PhG89A",
     "telegram_message_id": 26
+  },
+  {
+    "date": "2026-06-15T16:22:56.441100+00:00",
+    "artist": "Red Hot Chili Peppers",
+    "track": "Dark Necessities",
+    "youtube_url": "https://www.youtube.com/watch?v=Q0oIoR9mLwc",
+    "telegram_message_id": 27
   }
 ]
