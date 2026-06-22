@@ -194,5 +194,12 @@
     "track": "The Spoils",
     "youtube_url": "https://www.youtube.com/watch?v=8r31DFrFs5A",
     "telegram_message_id": 33
+  },
+  {
+    "date": "2026-06-22T15:45:58.823814+00:00",
+    "artist": "Moderat",
+    "track": "Bad Kingdom",
+    "youtube_url": "https://www.youtube.com/watch?v=3NPxqXMZq7o",
+    "telegram_message_id": 34
   }
 ]
