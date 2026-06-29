@@ -243,5 +243,12 @@
     "track": "The Spoils",
     "youtube_url": "https://www.youtube.com/watch?v=8r31DFrFs5A",
     "telegram_message_id": 40
+  },
+  {
+    "date": "2026-06-29T21:52:38.191624+00:00",
+    "artist": "Aphex Twin",
+    "track": "Tha",
+    "youtube_url": "https://www.youtube.com/watch?v=Jm95BNkD_vw",
+    "telegram_message_id": 41
   }
 ]
