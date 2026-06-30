@@ -250,5 +250,12 @@
     "track": "Tha",
     "youtube_url": "https://www.youtube.com/watch?v=Jm95BNkD_vw",
     "telegram_message_id": 41
+  },
+  {
+    "date": "2026-06-30T21:56:49.743086+00:00",
+    "artist": "Majid Jordan",
+    "track": "Her",
+    "youtube_url": "https://www.youtube.com/watch?v=xGl4MFuGg_U",
+    "telegram_message_id": 42
   }
 ]
