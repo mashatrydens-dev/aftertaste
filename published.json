@@ -257,5 +257,12 @@
     "track": "Her",
     "youtube_url": "https://www.youtube.com/watch?v=xGl4MFuGg_U",
     "telegram_message_id": 42
+  },
+  {
+    "date": "2026-07-01T22:02:54.217083+00:00",
+    "artist": "Tropic of Cancer",
+    "track": "Plant Lilies At My Head",
+    "youtube_url": "https://www.youtube.com/watch?v=9uMyhMHYLZ4",
+    "telegram_message_id": 43
   }
 ]
