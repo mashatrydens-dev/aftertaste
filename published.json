@@ -376,5 +376,12 @@
     "track": "The Spoils",
     "youtube_url": "https://www.youtube.com/watch?v=8r31DFrFs5A",
     "telegram_message_id": 59
+  },
+  {
+    "date": "2026-07-18T21:24:32.436841+00:00",
+    "artist": "Chet Faker",
+    "track": "Talk Is Cheap",
+    "youtube_url": "https://www.youtube.com/watch?v=aP_-P_BS6KY",
+    "telegram_message_id": 60
   }
 ]
