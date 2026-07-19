@@ -383,5 +383,12 @@
     "track": "Talk Is Cheap",
     "youtube_url": "https://www.youtube.com/watch?v=aP_-P_BS6KY",
     "telegram_message_id": 60
+  },
+  {
+    "date": "2026-07-19T21:25:55.905710+00:00",
+    "artist": "Moderat",
+    "track": "Bad Kingdom",
+    "youtube_url": "https://www.youtube.com/watch?v=3NPxqXMZq7o",
+    "telegram_message_id": 61
   }
 ]
