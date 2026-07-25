@@ -425,5 +425,12 @@
     "track": "Missing",
     "youtube_url": "https://www.youtube.com/watch?v=9GICslPP2nc",
     "telegram_message_id": 66
+  },
+  {
+    "date": "2026-07-25T21:25:56.225213+00:00",
+    "artist": "Duran Duran",
+    "track": "Come Undone",
+    "youtube_url": "https://www.youtube.com/watch?v=Epj84QVw2rc",
+    "telegram_message_id": 67
   }
 ]
