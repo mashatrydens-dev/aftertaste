@@ -488,5 +488,12 @@
     "track": "Lullaby",
     "youtube_url": "https://www.youtube.com/watch?v=zEmtfA8FETc",
     "telegram_message_id": 75
+  },
+  {
+    "date": "2026-08-03T21:40:46.662335+00:00",
+    "artist": "Prince Of Denmark",
+    "track": "GS",
+    "youtube_url": "https://www.youtube.com/watch?v=zWeYcNfYn3U",
+    "telegram_message_id": 76
   }
 ]
